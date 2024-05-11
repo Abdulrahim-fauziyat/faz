@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.fade-in-img {
+  animation: fadeIn 2s ease-in forwards;
+}
+.element {
+  background: linear-gradient(to right, #181111, #2c2c2c, #00000a);
+}
+/* 
+Footer {
+  overflow: none;
+} */
+
+.addash{
+  background: linear-gradient(to right, #373d8d, #485357, #8989d4, #bd6161);
+}
+
+  
+ 
